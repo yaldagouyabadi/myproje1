@@ -1,0 +1,236 @@
+@font-face {
+    font-family: myFont;
+    src: url(fonts/font.woff) format('woff');
+  }
+
+  @font-face {
+    font-family: "CustomFont";
+    src: url("fonts/CustomFont.eot");
+    src: url("fonts/CustomFont.woff") format("woff"),
+    url("fonts/CustomFont.otf") format("opentype"),
+    url("fonts/CustomFont.svg") format("svg");
+    }
+
+
+    @font-face {
+        font-family: Vazir;
+        font-style: normal;
+        font-weight: normal;
+        src: url('/fonts/Vazir.eot');
+        src: url('/fonts/Vazir.eot?#iefix') format('embedded-opentype'), 
+        url('/fonts/Vazir.woff2') format('woff2'), 
+        url('/fonts/Vazir.woff') format('woff'), 
+        url('/fonts/Vazir.ttf') format('truetype');
+       }
+       @font-face {
+        font-family: Vazir;
+        font-style: normal;
+        font-weight: bold;
+        src: url('/fonts/Vazir-Bold.eot');
+        src: url('/fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'), 
+        url('/fonts/Vazir-Bold.woff2') format('woff2'), 
+        url('/fonts/Vazir-Bold.woff') format('woff'), 
+        url('/fonts/Vazir-Bold.ttf') format('truetype');
+       }
+
+       body{
+        font-family: 'Vazir', Arial, sans-serif;
+        font-weight:normal;
+        }
+
+
+        .header-scroll{
+            background-color: #fff;
+            box-shadow: 0px 2px 20px rgb(1 41 112 / 10% );    
+            }
+            .header{
+                transition: all 0.5s;
+                padding: 20px 0;
+            }
+            .intro{
+                height: 100vh;
+                width: 100%;
+                background: url('../images/Images-Website-Background.kkjk_1652276869.jpg') top  no-repeat;
+                background-size: cover;
+            }
+            @media (max-width: 992px){
+.header{background-color: #fff;}
+            }
+
+
+            .hover-grow{
+                transition: all 0.5s;
+            }
+
+            .hover-grow:hover{
+                transform: scale(1.1);
+            }
+            
+            .counts i{
+                font-size: 42px;
+                color:blue;
+                
+            }
+
+.features i{
+font-size: 44px;
+color:blue;
+}
+
+
+
+.servises .service-box{
+   text-align: center;
+    box-shadow:0 0 30px rgba(1 ,41, 112,0.08) ;
+    border-radius: 5px;
+    padding: 60px 30px;
+    transition: all .3s;
+}
+
+
+.servises .service-box i{
+   
+                padding: 20px;
+                line-height: 0;
+                display: inline-block;
+                border-radius: 4px;
+                
+               
+}
+
+
+.servises .service-box a{
+    text-decoration: none;
+    border-radius:black 1px solid;
+}
+
+
+.servises .service-box .read-more i{
+    font-size: 18px;
+    line-height: 0;
+    margin-right: 0.4rem;
+}
+
+.servises .service-box .read-more{
+
+
+display: flex;
+align-items: center;
+font-weight: 800;
+justify-content: center;
+}
+.servises .blue i{
+    font-size: 42px;
+                color:blue;
+                background: rgb(197, 197, 243);}
+
+.servises .blue {
+    border-bottom: 3px solid blue;
+}
+
+
+.servises .orange {
+    border-bottom:3px solid orangered ;
+}
+
+
+.servises .green {
+border-bottom: 3px solid green;
+}
+
+.servises .orange i{
+    font-size: 42px;
+    color: orangered;
+    background: rgb(234, 193, 178);
+}
+
+.servises .green i{
+    font-size: 42px;
+    color:green;
+    background: rgb(183, 231, 183);
+}
+
+
+.servises .service-box .read-more i{
+background: #fff;
+}
+
+.servises  .blue:hover{
+    background: rgb(88, 88, 205);
+color:#fff
+}
+.servises  .orange:hover{
+    background: rgb(222, 85, 35);
+color:#fff
+}
+.servises  .green:hover{
+    background: rgb(39, 113, 56);
+color:#fff
+}
+
+.servises .blue:hover .read-more i{
+    background: rgb(88, 88, 205);
+    color:#fff
+}
+.servises .orange:hover .read-more i{
+    background: rgb(222, 85, 35);
+    color:#fff
+}
+.servises .green:hover .read-more i{
+    background: rgb(39, 113, 56);
+    color:#fff
+}
+
+.servises .service-box:hover .read-more{
+    color:#fff
+}
+
+.prices h4{
+color:rgb(7, 201, 201);
+}
+
+.prices .card{
+    transition: all .3s;
+}
+.prices .card:hover{
+    transform: scale(1.1);
+}
+
+
+.contact .info-box{
+    background-color: #fafbff;
+    padding: 30px;
+}
+
+.contact .info-box i{
+    font-size: 30px;
+    line-height: 0;
+    color:#4154f1;
+}
+
+.contact .info-box .cellphone{
+    direction: ltr;
+    text-align: right;
+}
+
+
+.contact .contact-form{
+    background-color: #fafbff;
+    padding: 30px;
+    
+}
+
+.footer .social-link i{
+    font-size: 20px;
+    color:rgba(1, 41, 112, 0.5)
+
+}
+
+.footer hr{
+    width: 70%;
+    height: 5px;
+}
+
+.footer .footer-link a{
+    color:#000;
+}
